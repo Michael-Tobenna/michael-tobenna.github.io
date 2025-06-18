@@ -166,7 +166,7 @@ body{
 }
 .about p{
      color:white;
-/*     margin:1.5rem 0; */
+    margin:1.5rem 0;
 }
 .about .work{
     display: grid;
@@ -191,7 +191,7 @@ body{
     margin-bottom: 3px;
 }
 .work .workbox .desc p{
-/*     margin:0px; */
+    margin:0px;
     color:white;
 }
 /***Responsive Design ***/
