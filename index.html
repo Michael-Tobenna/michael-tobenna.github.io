@@ -15,7 +15,7 @@
    <div class="container">
        <div class="profile-card"> 
             <div class="profile-pic">
-                <img src="Profile.jpg" alt="user avatar" style="width:100px; height:100px; border-radius:50%">
+                <img src="Profile.jpg" alt="user avatar" style="width:400px; height:400px; border-radius:50%">
             </div>
 
             <div class="profile-details">
@@ -63,10 +63,25 @@
 
             </div>
                 
-<a href="path/to/your/My CV.pdf" download>
-  <button>Download CV</button>
+<a href="My CV.pdf" download>
+  <button style="
+    padding: 12px 24px;
+    background-color: #6a0dad;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+  "
+  onmouseover="this.style.backgroundColor='#580e9b'"
+  onmouseout="this.style.backgroundColor='#6a0dad'">
+    Download CV
+  </button>
 </a>
-            </div>
+      </div>
        </div>
 
        <!----about section ----->
